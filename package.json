@@ -1,0 +1,24 @@
+{
+  "name": "timestamp-microservice",
+  "version": "1.0.0",
+  "description": "A timestamp microservice that parses unix timestamps or natural language dates.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adcoelho/timestamp-microservice.git"
+  },
+  "author": "Antonio coelho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adcoelho/timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/adcoelho/timestamp-microservice#readme",
+  "dependencies": {
+    "chrono-node": "^1.1.2",
+    "express": "^4.13.4",
+    "moment": "^2.11.2"
+  }
+}
