@@ -1,8 +1,8 @@
 var express = require('express');
-var chrono = require('chrono-node');
 var moment = require('moment');
 var app = express();
 
+app.set('port', (process.env.PORT || 5000));
 
 app.get('/*', function (req, res) {
     
@@ -26,4 +26,4 @@ app.get('/*', function (req, res) {
     res.end(JSON.stringify(result));
 });
 
-app.listen(8080);
+app.listen(app.get('port'));
